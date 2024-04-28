@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A5869C622BDDCE1500B79A71 /* BoxCarClassification 1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A5869C612BDDCE1500B79A71 /* BoxCarClassification 1.mlmodel */; };
 		A5AF3E7E2BDDC0BE00DA3CA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AF3E7D2BDDC0BE00DA3CA6 /* AppDelegate.swift */; };
 		A5AF3E802BDDC0BE00DA3CA6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AF3E7F2BDDC0BE00DA3CA6 /* SceneDelegate.swift */; };
 		A5AF3E822BDDC0BE00DA3CA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AF3E812BDDC0BE00DA3CA6 /* ViewController.swift */; };
 		A5AF3E852BDDC0BE00DA3CA6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = A5AF3E842BDDC0BE00DA3CA6 /* Base */; };
 		A5AF3E872BDDC0C000DA3CA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5AF3E862BDDC0C000DA3CA6 /* Assets.xcassets */; };
 		A5AF3E8A2BDDC0C000DA3CA6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = A5AF3E892BDDC0C000DA3CA6 /* Base */; };
+		A5AF3E922BDDC0F000DA3CA6 /* PredictionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AF3E912BDDC0F000DA3CA6 /* PredictionController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A5869C612BDDCE1500B79A71 /* BoxCarClassification 1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = "BoxCarClassification 1.mlmodel"; path = "../../../CreateModel/testingdata copy/BoxCarClassification 1.mlmodel"; sourceTree = "<group>"; };
 		A5AF3E7A2BDDC0BE00DA3CA6 /* MAD_Grad_Peram_Venkata_Ramana_Reddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MAD_Grad_Peram_Venkata_Ramana_Reddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5AF3E7D2BDDC0BE00DA3CA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5AF3E7F2BDDC0BE00DA3CA6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		A5AF3E862BDDC0C000DA3CA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5AF3E892BDDC0C000DA3CA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5AF3E8B2BDDC0C000DA3CA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5AF3E912BDDC0F000DA3CA6 /* PredictionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PredictionController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +60,11 @@
 		A5AF3E7C2BDDC0BE00DA3CA6 /* MAD_Grad_Peram_Venkata_Ramana_Reddy */ = {
 			isa = PBXGroup;
 			children = (
+				A5869C612BDDCE1500B79A71 /* BoxCarClassification 1.mlmodel */,
 				A5AF3E7D2BDDC0BE00DA3CA6 /* AppDelegate.swift */,
 				A5AF3E7F2BDDC0BE00DA3CA6 /* SceneDelegate.swift */,
 				A5AF3E812BDDC0BE00DA3CA6 /* ViewController.swift */,
+				A5AF3E912BDDC0F000DA3CA6 /* PredictionController.swift */,
 				A5AF3E832BDDC0BE00DA3CA6 /* Main.storyboard */,
 				A5AF3E862BDDC0C000DA3CA6 /* Assets.xcassets */,
 				A5AF3E882BDDC0C000DA3CA6 /* LaunchScreen.storyboard */,
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5AF3E822BDDC0BE00DA3CA6 /* ViewController.swift in Sources */,
+				A5869C622BDDCE1500B79A71 /* BoxCarClassification 1.mlmodel in Sources */,
 				A5AF3E7E2BDDC0BE00DA3CA6 /* AppDelegate.swift in Sources */,
+				A5AF3E922BDDC0F000DA3CA6 /* PredictionController.swift in Sources */,
 				A5AF3E802BDDC0BE00DA3CA6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,6 +300,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BNU37T6233;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MAD_Grad_Peram_Venkata_Ramana_Reddy/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -319,6 +328,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BNU37T6233;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MAD_Grad_Peram_Venkata_Ramana_Reddy/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
